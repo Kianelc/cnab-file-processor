@@ -1,0 +1,36 @@
+{
+  "name": "cnab-file-processor",
+  "version": "1.0.0",
+  "description": "Aplicação web para processar arquivos CNAB, normalizar dados financeiros, armazená-los em um banco de dados relacional e exibir as informações em uma interface web.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kianelc/cnab-file-processor.git"
+  },
+  "keywords": [
+    "CNAB",
+    "importação",
+    "dados financeiros",
+    "movimentações financeiras",
+    "web interface"
+  ],
+  "author": "Kiane L. Casagrande",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Kianelc/cnab-file-processor/issues"
+  },
+  "homepage": "https://github.com/Kianelc/cnab-file-processor#readme",
+  "engines": {
+    "node": "12.22.9",
+    "npm": "8.5.1"
+  },
+  "engines-strict": true,
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
